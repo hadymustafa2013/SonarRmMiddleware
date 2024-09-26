@@ -11,25 +11,32 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Models", "RmMi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.ABOControllers", "RmMiddleware.ABOControllers\RmMiddleware.ABOControllers.csproj", "{336E5D06-489E-4135-8ED8-C2AD34726E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Helpers", "RmMiddleware.Helpers\RmMiddleware.Helpers.csproj", "{4BA5E442-0BEF-4A6A-A5D4-4527BE19D47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Helpers", "RmMiddleware.Helpers\RmMiddleware.Helpers.csproj", "{4BA5E442-0BEF-4A6A-A5D4-4527BE19D47D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Bayan", "RmMiddleware.Bayan\RmMiddleware.Bayan.csproj", "{4F22E2B4-CEEC-45D7-A6C5-6B5F77E521B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Bayan", "RmMiddleware.Bayan\RmMiddleware.Bayan.csproj", "{4F22E2B4-CEEC-45D7-A6C5-6B5F77E521B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Data.Repository", "RmMiddleware.Data.Repository\RmMiddleware.Data.Repository.csproj", "{74D8DD98-7C2A-4043-98BE-A9621D416927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Data.Repository", "RmMiddleware.Data.Repository\RmMiddleware.Data.Repository.csproj", "{74D8DD98-7C2A-4043-98BE-A9621D416927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Bayan.Mapping", "RmMiddleware.Bayan.Mapping\RmMiddleware.Bayan.Mapping.csproj", "{098AFE58-006A-4A20-97DD-41F6BF51CCA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Bayan.Mapping", "RmMiddleware.Bayan.Mapping\RmMiddleware.Bayan.Mapping.csproj", "{098AFE58-006A-4A20-97DD-41F6BF51CCA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Tests", "RmMiddleware.Tests\RmMiddleware.Tests.csproj", "{734C1950-0CA9-4B87-AC93-0754C572996C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Tests", "RmMiddleware.Tests\RmMiddleware.Tests.csproj", "{734C1950-0CA9-4B87-AC93-0754C572996C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Widgets.Loader.SourceTargetAccountMappingBayan", "RmMiddleware.Widgets.Loader.SourceTargetAccountMappingBayan\RmMiddleware.Widgets.Loader.SourceTargetAccountMappingBayan.csproj", "{396FA8DC-352B-4A48-9CBB-E609F94B6B95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Widgets.Loader.SourceTargetAccountMappingBayan", "RmMiddleware.Widgets.Loader.SourceTargetAccountMappingBayan\RmMiddleware.Widgets.Loader.SourceTargetAccountMappingBayan.csproj", "{396FA8DC-352B-4A48-9CBB-E609F94B6B95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Migrations", "RmMiddleware.Migrations\RmMiddleware.Migrations.csproj", "{DCD68BB4-5E0C-4F44-9B82-16C0A339A86D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Migrations", "RmMiddleware.Migrations\RmMiddleware.Migrations.csproj", "{DCD68BB4-5E0C-4F44-9B82-16C0A339A86D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.Widgets.Mocks.CreateBayanAccountsJsonFromMmasChart", "RmMiddleware.Widgets.Mocks.CreateBayanAccountsJsonFromMmasChart\RmMiddleware.Widgets.Mocks.CreateBayanAccountsJsonFromMmasChart.csproj", "{91720F91-FD24-4DF9-8908-2EB5D2ACF715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.Widgets.Mocks.CreateBayanAccountsJsonFromMmasChart", "RmMiddleware.Widgets.Mocks.CreateBayanAccountsJsonFromMmasChart\RmMiddleware.Widgets.Mocks.CreateBayanAccountsJsonFromMmasChart.csproj", "{91720F91-FD24-4DF9-8908-2EB5D2ACF715}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.CreditLensApiAggregator.Service", "RmMiddleware.CreditLensApiAggregator.Service\RmMiddleware.CreditLensApiAggregator.Service.csproj", "{64B4B249-4D05-476E-A43A-9996BC04D937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.CreditLensApiAggregator.Service", "RmMiddleware.CreditLensApiAggregator.Service\RmMiddleware.CreditLensApiAggregator.Service.csproj", "{64B4B249-4D05-476E-A43A-9996BC04D937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmMiddleware.CreditLensAggregator.Dto", "RmMiddleware.CreditLensAggregator.Dto\RmMiddleware.CreditLensAggregator.Dto.csproj", "{A3E9214D-4F3A-4548-B183-0E9B4AB5DB30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RmMiddleware.CreditLensAggregator.Dto", "RmMiddleware.CreditLensAggregator.Dto\RmMiddleware.CreditLensAggregator.Dto.csproj", "{A3E9214D-4F3A-4548-B183-0E9B4AB5DB30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7B05A3EF-BFC7-4E20-95EA-13A44AF6A4DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{ACD78F94-4F69-4809-ACC4-EFDE26F14C95}"
+	ProjectSection(SolutionItems) = preProject
+		build.yml = build.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +103,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACD78F94-4F69-4809-ACC4-EFDE26F14C95} = {7B05A3EF-BFC7-4E20-95EA-13A44AF6A4DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DA42193-A5C6-44C9-89A8-48235E559E56}
