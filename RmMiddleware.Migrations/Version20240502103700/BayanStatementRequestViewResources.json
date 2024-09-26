@@ -1,0 +1,8 @@
+{
+  "Tenant.group.viewModel.BayanStatementRequestView.Default": "Default",
+  "Tenant.attr.model.BayanStatementRequest.viewModel.BayanStatementRequestView.Id": "Id",
+  "Tenant.attr.model.BayanStatementRequest.viewModel.BayanStatementRequestView.RequestDate": "Request Date",
+  "Tenant.attr.model.BayanStatementRequest.viewModel.BayanStatementRequestView.RequestUser": "Request User",
+  "Tenant.attr.model.BayanStatementRequest.viewModel.BayanStatementRequestView.ErrorStack": "Error Stack",
+  "Tenant.nested.viewModel.BayanStatementRequestView.BayanStatementView": "Bayan Statement View"
+}

@@ -1,0 +1,14 @@
+{
+  "payLoad": {
+    "RuleName": "DisplayTrue",
+    "Description": "Display Return True.",
+    "RuleType": "CSharp",
+    "ModuleId": "Tenant",
+    "ModelId": "Entity",
+    "RuleCategory": 1,
+    "Source": "return True();",
+    "ChainedRules": null,
+    "EffectiveDate": null,
+    "VersionId": 1
+  }
+}

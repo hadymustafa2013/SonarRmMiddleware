@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <AssemblyVersion>1.1.1</AssemblyVersion>
+        <FileVersion>1.1.1</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CrystalQuartz.AspNetCore" Version="7.1.0"/>
+        <PackageReference Include="FluentMigrator" Version="5.2.0" />
+        <PackageReference Include="FluentMigrator.Runner" Version="5.2.0" />
+        <PackageReference Include="GraphQL" Version="7.6.1"/>
+        <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="7.6.0"/>
+        <PackageReference Include="GraphQL.Server.Ui.Playground" Version="7.6.0"/>
+        <PackageReference Include="log4net" Version="2.0.17" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.17"/>
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.7.0"/>
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.4" />
+        <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="8.0.0"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+        <PackageReference Include="Quartz" Version="3.7.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0"/>
+        <PackageReference Include="System.CodeDom" Version="7.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Microsoft.Extensions.DependencyModel">
+            <HintPath>D:\Nuget\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\RmMiddleware.Bayan.Mapping\RmMiddleware.Bayan.Mapping.csproj"/>
+        <ProjectReference Include="..\RmMiddleware.Bayan\RmMiddleware.Bayan.csproj"/>
+        <ProjectReference Include="..\RmMiddleware.CreditLensAggregator.Dto\RmMiddleware.CreditLensAggregator.Dto.csproj" />
+        <ProjectReference Include="..\RmMiddleware.CreditLensApiAggregator.Service\RmMiddleware.CreditLensApiAggregator.Service.csproj" />
+        <ProjectReference Include="..\RmMiddleware.Helpers\RmMiddleware.Helpers.csproj"/>
+        <ProjectReference Include="..\RmMiddleware.Migrations\RmMiddleware.Migrations.csproj" />
+        <ProjectReference Include="..\RmMiddleware.Models\RmMiddleware.Models.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Views\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="wwwroot\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="ApiSchema\EntityEdit.cs" />
+      <Compile Remove="ApiSchema\EntityEditSchemaFilter.cs" />
+      <Compile Remove="Graph\ClSchema.cs" />
+      <Compile Remove="Graph\EntityQuery.cs" />
+      <Compile Remove="Services\CreditLensInit.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="wwwroot\CbMeProduct\172748.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\CbMeProduct\172749.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\CbMeProduct\172750.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="log4net.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

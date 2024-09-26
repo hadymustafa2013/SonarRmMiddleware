@@ -1,0 +1,65 @@
+namespace Data.Repository.CreditLens.Models.View;
+
+public class Attribute
+{
+    public bool ViewModelRefSpecified { get; set; }
+    public string? Validator { get; set; }
+    public bool RunRuleSpecified { get; set; }
+    public bool DependsOnAttributesSpecified { get; set; }
+    public string? Id { get; set; }
+    public int? Width { get; set; }
+    public bool Filter { get; set; }
+    public bool Hidden { get; set; }
+    public string? ResourceId { get; set; }
+    public string? CellIcon { get; set; }
+    public string? CellTooltip { get; set; }
+    public string? HorizontalAlign { get; set; }
+    public bool ReadOnly { get; set; }
+    public string? ModelId { get; set; }
+    public string? ModelFieldId { get; set; }
+    public string? Expression { get; set; }
+    public bool Encrypt { get; set; }
+    public string? ControlType { get; set; }
+    public string? LookupDependency { get; set; }
+    public string? AllowManualEdit { get; set; }
+    public string? Format { get; set; }
+    public string? Decimals { get; set; }
+    public string? Rounding { get; set; }
+    public string? ParentAttributeId { get; set; }
+    public string? VmRefId { get; set; }
+    public bool DisplayField { get; set; }
+    public bool MultiSelectField { get; set; }
+    public bool LeafOnly { get; set; }
+    public string? Action { get; set; }
+    public string? ActionRule { get; set; }
+    public string? ActionConfigSetting { get; set; }
+    public string? DefaultValue { get; set; }
+    public string? ViewLabelFieldId { get; set; }
+    public bool NotesEnabled { get; set; }
+    public int? Order { get; set; }
+    public bool Deleted { get; set; }
+    public string? ChildModelIdFilter { get; set; }
+    public string? VmRefParam { get; set; }
+    public string? SortBy { get; set; }
+    public bool Shared { get; set; }
+    public bool Editable { get; set; }
+    public bool Sortable { get; set; }
+    public bool Resizeable { get; set; }
+    public bool WrapHeaderDisplay { get; set; }
+    public bool PinColumnToLeft { get; set; }
+    public bool IsAuthAttribute { get; set; }
+    public bool SetDefaultOnly { get; set; }
+    public string? LinkType { get; set; }
+    public string? LinkCondition { get; set; }
+    public string? TargetType { get; set; }
+    public string? TargetViewModelId { get; set; }
+    public string? TargetGroupId { get; set; }
+    public string? TargetRouteId { get; set; }
+    public string? ModalTitle { get; set; }
+    public string? RefParam { get; set; }
+    public bool DisplayAsKey { get; set; }
+    public bool ClarifyTextEnabled { get; set; }
+    public bool CloudBehavior { get; set; }
+    public string? ResourceModuleId { get; set; }
+    public bool? PrimaryField { get; set; }
+}

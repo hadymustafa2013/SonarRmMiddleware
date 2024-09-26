@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentMigrator" Version="5.2.0" />
+      <PackageReference Include="log4net" Version="2.0.17" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RmMiddleware.Data.Repository\RmMiddleware.Data.Repository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="JIRA\RMIG34\BayanStatementRequestView.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="JIRA\RMIG34\FinancialAnalysisMenu.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="JIRA\RMIG34\DisplayTrue.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\BayanStatementRequestView.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\DisplayTrue.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\FinancialAnalysisMenu.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\FinancialSearch.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\BayanStatementView.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\BayanStatementRequestViewResources.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\FinancialAnalysisResources.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\BayanStatementViewResources.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\BayanSettingsSearchView.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\BayanConstantView.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\BayanSettingsEditView.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Version20240502103700\Menu.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

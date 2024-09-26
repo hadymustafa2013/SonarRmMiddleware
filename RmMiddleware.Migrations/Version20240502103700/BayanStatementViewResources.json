@@ -1,0 +1,13 @@
+{
+  "Tenant.group.viewModel.BayanStatementView.Default": "Default",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.EntityId": "Entity Id",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.FilingId": "Filing Id",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.StatementDate": "Statement Date",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.Import": "Import",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.Id": "Id",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.FetchedDate": "Fetched Date",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.FetchedUser": "Fetched User",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.ResubmissionComments": "Resubmission Comments",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.SpreadCount": "Spread Count",
+  "Tenant.attr.model.BayanStatement.viewModel.BayanStatementView.ErrorStack": "Error Stack"
+}
